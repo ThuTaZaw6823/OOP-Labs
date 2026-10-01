@@ -7,6 +7,6 @@ public class CardUtil {
 
     public static boolean isHighestCard(Card card) {
         return card.getRank() == HIGHEST_RANK &&
-               card.getSuit() == HIGHEST_SUITE;
+            card.getSuit() == HIGHEST_SUITE;
     }
 }
